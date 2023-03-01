@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+ 	FILE *file;
+
+ 	file = fopen("The address of the desired file with the extension","w");
+ 	fflush(file);
+
+	if(fptr == NULL)
+	{
+		printf("\nThe file was successfully flashed");
+	}
+	else
+	{
+		printf("\nYou encountered a problem");
+	}
+ fclose(file);
+}
